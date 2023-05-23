@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(183, 248, 183);
+    font-size: medium;
+    font-family: 'Hind', sans-serif;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 15%;
+    width: 100%;
+
+}
+/*@media only screen and (max-width: 600px) {
+    .container {background: red;}
+    }
+    /* Small devices (600px and up) 
+    @media only screen and (min-width: 600px) {
+    .container {background: green;}
+    }
+    /* Medium devices (768px and up) 
+    @media only screen and (min-width: 768px) {
+    .container {background: blue;}
+    } 
+    */
+.clinicas{
+    border-style: solid;
+    border-color: black;
+    flex-basis: content;
+    min-width: 25%;
+    max-width: 50%;
+    /*
+    height: 25%;
+    padding: 50 px;
+    margin: 20 px, 20px, 20 px, 50 px;
+    */
+}
+
+footer{
+    text-align: center;
+
+}

@@ -1,0 +1,507 @@
+*{
+    box-sizing: border-box;
+    font-size: medium;
+    font-family: 'Hind', sans-serif;
+
+}
+body{
+    font-size:1.6rem;
+    line-height:2;     
+}
+.letrasBlancas{
+    text-shadow: 1px 1px 5px black;
+    color: #dce8f2;
+    margin:0;
+    font-weight: bold; 
+
+    
+}
+.letrasGrises{
+    color: rgb(65, 62, 62);
+    text-shadow: 1px 1px 5px rgb(246, 241, 241);   
+    font-weight: bold; 
+}
+.letrasNegras{
+    color: #131313;
+    text-shadow: 1px 1px 5px rgb(246, 241, 241);    
+}
+
+.titulo-principal{
+    display: flex;
+    justify-content: center;
+    
+}
+.titulo-principal_h1{
+    color: #387530;
+    margin: 0;
+    
+}
+.titulo-principal_img{
+    margin-top: 0.9em;
+    width: 1.875em;
+    height: 1.875em;
+}
+.contenido-principal{ 
+    width:95%;
+    height: 28.5em;      
+    background-color: #dce8f2;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card1, .card2, .card3{
+    width:30%; 
+    height:70% ;
+    box-shadow: 2px 2px 10px 2px rgb(172, 170, 170);
+    
+}
+.card1-img1{
+    width: 100%;
+    height:80% ;
+    background-image: url('../img/img1.webp');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;	
+}
+.btn-centrar{
+    text-align: center;
+    margin: 0.5em auto;
+    font-size: 1.25em;  
+}
+.btn{
+    font-size: 22px;
+    width: 98%;
+    height: 2em;
+    background-color: #dce8f2;
+    border-color: white;
+    color: #343333;
+    font-weight: bold;
+    border-radius: 5px;   
+    letter-spacing: 0.02em; 
+}
+.btn:hover{
+    background-color: #003366;
+    color:rgb(240, 240, 219);
+}
+
+.card2-img2{
+    width: 100%;
+    height:80% ;
+    background-image: url('../img/img2.webp');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;	
+}
+.card3-img3{
+    width: 100%;
+    height:80% ;
+    background-image: url('../img/img3.webp');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;	
+}
+
+section{
+    width:min(70%,120rem);
+    margin:0 auto;
+    background: linear-gradient(40deg,  #b8f1a4 , rgb(121, 193, 83), #00923f);
+    padding: 0 0.2%;
+}
+
+
+#seccion_requisitos{
+    box-sizing: border-box;
+    display:none; 
+    width:80%; 
+    height: auto;
+    padding: 0 2em 2em;    
+  
+}
+#seccion_requisitos >h1{
+    font-size: 2em;
+    margin: 0;
+    text-align: center; 
+}
+.seccion_requisitos-portada{
+    width:100%;
+    height:200px;
+    opacity: 0.9;
+}
+.seccion_requisitos-img {
+    /* width:0.8em; */
+    width:1.4em;
+
+}
+
+#seccion_requisitos >h2{
+    margin: 0;
+    font-size: 2em;
+    color: #dce8f2;
+    text-shadow: 1px 1px 5px black;
+    letter-spacing: 1px;
+}
+
+.seccion_requisitos-lista{
+    list-style-type: none;
+}
+
+.icon-requisitos{
+    font-size: 5px;
+    color:rgb(174, 234, 200);
+ } 
+
+.seccion_requisitos-p-consulta {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: (20px, 20px, 20x, 500px);
+    grid-gap: 1px;
+    font-weight: bold;
+  }
+.seccion_requisitos-p1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+  
+.seccion_requisitos-p2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  
+.seccion_requisitos-p3 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+.margin-0 p{
+    margin:0;
+  }
+  
+.seccion_requisitos-consulta-img {
+    box-shadow:5px 1px 20px #100101;
+    grid-column: 3 / 4;
+    grid-row: 1 / 4;
+   
+  }
+.seccion_requisitos-consulta-img img{  
+    width:100%;
+    height: 100%;
+}
+
+
+.contenedor-presentacion{
+  display: flex;
+  justify-content: flex-start ;
+  gap:10%;
+
+}
+.contenedor-presentacion h2{
+    margin-bottom: 0;
+}
+
+.logo{
+    width:12%;
+    opacity:0.6;  
+    border-radius: 50%;  
+    box-shadow: 2px 2px 2px 2px #121212;
+}
+
+.form-p{
+    width: 90%;
+    font-size: 17px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 2px solid rgb(230, 225, 225);
+}
+
+#formulario_ingreso{
+    box-sizing: border-box;
+    width: 80%;
+    display:none;
+    padding: 1em;
+    padding-top:0;
+    padding-left:0; 
+   
+}
+.titulo-form{
+    text-align:center;
+    font-weight: bold;
+}
+
+.formulario{
+    width:87%;
+    margin: 0 auto;
+    border: 2px solid rgb(223, 250, 159);
+    display: flex;  
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.campo > input{
+    width:99%;
+}
+.campo input, #estadoCivil{ 
+    padding: 0.3em 0.1em;
+    border-radius: 5px;
+    width:100%;
+}
+#estadoCivil{
+    color:rgb(69, 67, 67);
+    text-transform: uppercase;
+}
+
+.campo{
+    display:flex;
+    margin-bottom:2rem;
+    color:rgb(78, 75, 75);
+}
+
+#nacimiento::before{
+    content: 'NACIMIENTO : ';
+}
+
+.p-elegirArchivo{
+    color:rgb(63, 62, 62);
+    font-weight:700;
+}
+
+.enviarForm{
+    width:60%;
+    border-color: rgb(7, 170, 34);
+     background-color: rgb(7, 170, 34);
+     color:white;
+     font-size: 20px;
+     font-weight: bold;
+}
+.enviarForm:hover{
+    color:#121212;
+}
+
+#declaracionJurada{
+    margin:1em auto;
+    border-radius: 5px;
+}
+#declaracionJurada a{
+    color:rgb(122, 9, 9);
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.d-jurada_pdf{
+    width:6%;
+    margin-left: 9em;
+}
+.d-jurada-flecha{
+    width:1em;
+}
+
+input[type="file" i]{
+    color: rgb(62, 59, 59);
+}
+
+
+/* otros tramites */
+
+#seccion-otrosTramites{
+    box-sizing: border-box;
+    width:80%;
+    display: none;
+    height:40em;
+}
+#app{
+    padding:1em 0 0 1em;
+    border-radius: 50%;
+    background-color: #cff5c1;
+    text-shadow: 2px 2px 2px rgb(83, 80, 80);
+}
+#app p{
+    margin:0;
+    color: rgb(247, 244, 244);
+    font-weight: bold;
+}
+#seccion-otrosTramites h1{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    position: absolute;
+    top: 0;
+    left: 10.5em;
+    z-index: 2;
+    
+}
+.icon{
+    float: right;
+    color:#035225;
+    display:block;
+}
+
+#icon1-1, #icon2-1, #icon3-1, #icon4-1, #icon5-1{
+    float: right;
+    color:#035225;
+    display:none;
+}
+
+.otrosTramites-banner{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin-bottom: 1em;
+    height: 10em;
+
+    position: relative;
+    overflow: hidden;
+}
+
+@keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+ 
+.otrosTramites-banner img{
+    /* width:31.25em; */
+    width:min(80%,120rem);
+    animation: slideInRight 2s forwards;
+    position: relative;
+    z-index: 1;
+ 
+}
+
+.otrosTramites-lista {
+    list-style-type: none;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    display: inline;
+    border-radius: 10px;
+    background: linear-gradient(40deg,  rgba(184, 241, 164,0.5) , rgba(121, 193, 83,0.5), rgba(0, 146, 63, 0.5));
+    box-shadow: 1px 2px 10px black;
+
+
+}
+
+
+#list_click-1, #list_click-2, #list_click-3,
+#list_click-4, #list_click-5{
+    display: none;
+}
+
+#boton1, #boton2, #boton3,
+#boton4, #boton5{
+    width:90%;
+    margin-left: 2em ; 
+}
+
+.btn-otroTramite{
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 0.5em;
+    box-shadow: 1px 1px 1px rgb(17, 17, 16);
+    border: none;
+    color:#024720;
+    font-weight: bold;
+    font-size: 20px;
+    background:  #F6F6F6;
+}
+.btn-otroTramite:hover{
+    font-size: 21px;
+    transition: all 0.3s ease-in-out;
+}
+#app{
+    height:16em;
+}
+footer{
+    text-align: center;
+}
+
+  @media all and (min-width: 600px) and (max-width:1023px){
+    .seccion_requisitos-consulta-img {
+        box-shadow:5px 1px 20px #100101;
+        grid-column: 3 / 4;
+        grid-row: 2 / 4;
+       
+      }
+     
+  }
+ 
+  /* para celulares  */
+  @media screen and (min-width: 320px) and (max-width: 599px){  
+
+    .contenido-principal {
+    height: 60em;      
+    display:block; 
+
+      }
+    .card1, .card2, .card3 {
+        width: 99%;
+        height: 30%;
+        margin-bottom: 20px;
+        margin: 0 auto;
+      }
+      .seccion_requisitos-p-consulta {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: (20px, 20px, 20x, 20px, 500px);
+        grid-gap: 0.031em;
+    }
+    .seccion_requisitos-p1 {
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+    }
+  
+    .seccion_requisitos-p2 {
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+    }
+  
+    .seccion_requisitos-p3 {
+        grid-column: 2 / 4;
+        grid-row: 3 / 4;
+    }
+    .seccion_requisitos-consulta-img {
+        box-shadow:5px 1px 20px #100101;
+        grid-column: 2 / 4;
+        grid-row: 4 / 5;
+       
+      }
+    .logo{
+        width:15%;
+        height:15%;
+
+    }  
+    .contenedor-presentacion{
+        font-size: 0.8em;
+
+    }
+    #formulario_ingreso{
+        padding:0.2em;
+    }
+    .otrosTramites-banner img{
+        width:min(60%,80rem);      
+    }
+    #seccion-otrosTramites h1{
+        left: 5.5em;   
+    }
+    .fuenteH1{
+        font-size: 2em;
+    }
+    #seccion_requisitos{
+        width:90%;
+    }
+    
+    #formulario_ingreso{
+        width:90%;
+    }
+    #seccion-otrosTramites{
+        width:90%
+    }
+    #boton1, #boton2, #boton3,
+    #boton4, #boton5{
+    width:90%;
+    margin-left: 1em ; 
+}
+  
+}
+
